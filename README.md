@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<head>
+
 <title> CST465 </title>
 <h1> What I'm hoping to learn in this class </h1>
 <ul>
@@ -11,3 +15,5 @@
 <li> C++ </li>
 <li> C </li>
 </ol>
+</head>
+</html>
