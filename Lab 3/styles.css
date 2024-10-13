@@ -1,0 +1,94 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd24f;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header .logo {
+    height: 80px;
+    width: 80px; /* Adjust size as needed */
+    float: left;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 36px;
+    color: #000;
+}
+
+nav {
+    background-color: #cdcdcd;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #003767;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-container label {
+    font-weight: bold;
+}
+
+.grid-container input, .grid-container select, .grid-container textarea {
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+button {
+    background-color: #003767;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003767;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
