@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #003767; /* Dark Blue */
+    --secondary-color: #ffd24f; /* Yellow */
+    --text-color: black;
+    --link-color: #4a008e; /* Purple */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Grey background like in the image */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#headerText {
+    color: white;
+    font-size: 24px;
+}
+
+#mainMenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: var(--secondary-color);
+    margin: 0;
+}
+
+#mainMenu ul li {
+    padding: 10px 20px;
+}
+
+#mainMenu ul li a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 18px;
+}
+
+#mainMenu ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+#sideMenu {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sideMenu ul li a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+#sideMenu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    float: right;
+    width: 75%;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.productlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.productlist ul li {
+    float: left;
+    width: 24%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.productlist ul li h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.productlist ul li .price,
+.productlist ul li .brand,
+.productlist ul li .description {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
