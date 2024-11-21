@@ -22,7 +22,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     background-color: var(--primary-color);
 }
 
@@ -32,6 +32,9 @@ header img {
 }
 
 #headerText {
+    position: absolute;
+    top: 110px;
+    left: 325px;
     color: white;
     font-size: 24px;
 }
@@ -60,15 +63,18 @@ header img {
 }
 
 h1 {
+    position: absolute;
+    left: 300px;
     font-size: 32px;
     color: var(--text-color);
     margin-top: 20px;
 }
 
 #sideMenu {
-    float: left;
+    position: absolute;
+    left: 300px;
     width: 20%;
-    padding: 10px;
+    top: 250px;
 }
 
 #sideMenu ul {
@@ -122,12 +128,17 @@ h2 {
 }
 
 footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
     background-color: var(--primary-color);
     color: white;
+    font-size: 12px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
+
 
 .group:after {
     content: "";
