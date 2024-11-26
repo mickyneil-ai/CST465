@@ -1,0 +1,31 @@
+@model List<TestQuestionModel>
+
+<form asp-action="SubmitTest" asp-controller="MidtermExam" method="post">
+    @Html.ValidationSummary()
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div class="question">
+            @if (Model[i] is TrueFalseQuestionModel)
+            {
+                @await Html.PartialAsync("_TrueFalseQuestion", (TrueFalseQuestionModel)Model[i])
+            }
+            else if (Model[i] is MultipleChoiceQuestion)
+            {
+                <partial name="_MultipleChoiceQuestion" for="@Model[i]" />
+            }
+            else if (Model[i] is ShortAnswerQuestion)
+            {
+                <partial name="_ShortAnswerQuestion" for="@Model[i]"/>
+            }
+            else if (Model[i] is LongAnswerQuestion)
+            {
+                @await Html.PartialAsync("_LongAnswerQuestion", (LongAnswerQuestion)Model[i])
+            }
+            <input type="hidden" name="[@i].id" value="@Model[i].id"/>
+            <input type="hidden" name="[@i].question" value="@Model[i].question" />
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

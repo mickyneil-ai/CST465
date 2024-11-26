@@ -1,0 +1,26 @@
+body{
+    background-color: #003767;
+}
+.wrapper{
+    
+    background-color: #fff;
+}
+.wrapper main{
+    padding: 0 15px;
+}
+.start-exam-btn {
+    display: inline-block;
+    font-size: 2rem; 
+    padding: 1rem 2rem;
+    background-color: #ff5722; 
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .start-exam-btn:hover {
+        background-color: #e64a19; 
+    }

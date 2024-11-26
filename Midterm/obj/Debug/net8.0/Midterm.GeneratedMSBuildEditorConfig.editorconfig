@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Midterm
+build_property.RootNamespace = Midterm
+build_property.ProjectDir = C:\Users\mcnei\Downloads\Midterm (1)\Midterm\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mcnei\Downloads\Midterm (1)\Midterm
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/MidtermExam/DisplayResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlkdGVybUV4YW1cRGlzcGxheVJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/MidtermExam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlkdGVybUV4YW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/MidtermExam/TakeTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlkdGVybUV4YW1cVGFrZVRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/Shared/_LongAnswerQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb25nQW5zd2VyUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/Shared/_MultipleChoiceQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NdWx0aXBsZUNob2ljZVF1ZXN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/Shared/_ShortAnswerQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaG9ydEFuc3dlclF1ZXN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/Shared/_TrueFalseQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcnVlRmFsc2VRdWVzdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mcnei/Downloads/Midterm (1)/Midterm/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

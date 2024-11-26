@@ -1,0 +1,6 @@
+﻿@model ShortAnswerQuestion
+
+<h2>@Model.question</h2>
+<input type="text" asp-for="Answer" class="form-control" maxlength="100" />
+<input type="hidden" asp-for="id" value="@Model.id"/>
+<span asp-validation-for="Answer" class="text-danger"></span>

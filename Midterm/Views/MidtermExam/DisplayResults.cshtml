@@ -1,0 +1,25 @@
+@model List<TestQuestionModel>
+
+@{
+    ViewData["Title"] = "Results";
+}
+
+<h1>Exam Results</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>Your Answer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var question in Model)
+        {
+            <tr>
+                <td>@question.question</td>
+                <td>@question.Answer</td>
+            </tr>
+        }
+    </tbody>
+</table>

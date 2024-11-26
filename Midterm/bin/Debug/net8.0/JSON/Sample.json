@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "QuestionType": "TrueFalseQuestion",
+    "question": "The current iteration of .NET is platform-independent"
+  },
+  
+  {
+    "id": 2,
+    "QuestionType": "ShortAnswerQuestion",
+    "question": "List the following in the order of precedence (highest to lowest) for defining CSS styles: internal stylesheet, browser stylesheet, external stylesheet, inline style"
+  },
+  
+  {
+    "id": 3,
+    "QuestionType": "LongAnswerQuestion",
+    "question": "What is the purpose of the DOCTYPE declaration at the top of a web page"
+  },
+  
+  {
+    "id": 4,
+    "QuestionType": "MultipleChoiceQuestion",
+    "question": "For accessibility, all controls that ask for user input must have an associated:",
+    "choices": [
+      "label",
+      "validator",
+      "style",
+      "All of the above"
+    ]
+  }
+
+]

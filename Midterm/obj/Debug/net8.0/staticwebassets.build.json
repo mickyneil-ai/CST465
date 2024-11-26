@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "f5iTBdN71RTzCAeZAmnZshX2SvRYJl4HrRWjI0Dk75I=",
+  "Source": "Midterm",
+  "BasePath": "_content/Midterm",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Midterm\\wwwroot",
+      "Source": "Midterm",
+      "ContentRoot": "C:\\Users\\mcnei\\Downloads\\Midterm (1)\\Midterm\\wwwroot\\",
+      "BasePath": "_content/Midterm",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mcnei\\Downloads\\Midterm (1)\\Midterm\\wwwroot\\css\\default.css",
+      "SourceId": "Midterm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mcnei\\Downloads\\Midterm (1)\\Midterm\\wwwroot\\",
+      "BasePath": "_content/Midterm",
+      "RelativePath": "css/default.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\default.css"
+    }
+  ]
+}
