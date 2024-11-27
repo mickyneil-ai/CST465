@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "bDJGgw6pOqzhfUiXk56d67BPTdzR3/ySXdZ+BzAszP4=",
+  "Source": "Assignment3",
+  "BasePath": "_content/Assignment3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Assignment3\\wwwroot",
+      "Source": "Assignment3",
+      "ContentRoot": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\",
+      "BasePath": "_content/Assignment3",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\css\\DefaultStyles.css",
+      "SourceId": "Assignment3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\",
+      "BasePath": "_content/Assignment3",
+      "RelativePath": "css/DefaultStyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DefaultStyles.css"
+    },
+    {
+      "Identity": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\img\\heavysigh.jpg",
+      "SourceId": "Assignment3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\",
+      "BasePath": "_content/Assignment3",
+      "RelativePath": "img/heavysigh.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\heavysigh.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\Index.html",
+      "SourceId": "Assignment3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mcnei\\Downloads\\Assignment3\\Assignment3\\wwwroot\\",
+      "BasePath": "_content/Assignment3",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+@using Assignment3.Code.DataModels
+@model List<BlogPost>
+
+<h1>Blog Posts</h1>
+
+<a asp-action="Add" asp-controller="Blog">Add New Post</a>
+
+@foreach (var post in Model)
+{
+    <div>
+        <h2>@post.Title</h2>
+        <p>@post.Content</p>
+        <p><em>@post.Author</em> - @post.Timestamp</p>
+        <a asp-action="Edit" asp-controller="Blog" asp-route-id="@post.ID">Edit Post</a>
+    </div>
+}
