@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Lab8.DataObjects.ImageObject>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Check out the uploaded images below:</p>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var image in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 text-center">
+                    <img src="@Url.Action("GetImage", "Home", new { id = image.ID })" class="card-img-top" alt="@image.Description" style="max-height: 200px; object-fit: cover;" />
+                    <div class="card-body">
+                        <p class="card-text">@image.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
